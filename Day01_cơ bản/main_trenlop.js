@@ -192,33 +192,44 @@ function repeatString(a) {
     for (let i = 0; i < 10; i++) {
         string += a;        
     }
+    return string;
 }
 let i = 'Q';
-repeatString(i);
+console.log(repeatString(i));
 
 //Bài 2. Viết function truyền vào 1 chuỗi bất kỳ, hãy viết hàm có tác dụng sao chép đó chuỗi lên 10 lần, ngăn cách nhau bởi dấu gạch ngang.
 //Ví dụ: repeatString(“a”) => Kết quả trả về là “a-a-a-a-a-a-a-a-a-a”
 function repeatString2(a) {
     let string = '';
     for (let i = 0; i < 10; i++) {
-        string += a + '-';        
+        if (i === 9) {
+            string += a;
+        } else {
+            string += a + '-';  
+        }
     }
+    return string;
 }
-let j = 'Q';
-repeatString2(j);
+let j = 'q';
+console.log(repeatString2(j));
 
 //Bài 3. Viết function truyền vào 1 chuỗi bất kỳ và 1 số nguyên dương n > 1, hãy viết hàm có tác dụng sao chép đó chuỗi lên n lần, 
 //ngăn cách nhau bởi dấu gạch ngang.
 //Ví dụ: repeatString(‘a’, 5) => Kết quả trả về là ‘a-a-a-a-a’
 function repeatString3(a, n) {
     let string = '';
-    for (let i = 0; i < n; i++) {
-        string += a + '-';         
+    for (let i = 0; i < n; i++) {        
+        if (i === (n - 1)) {
+            string += a 
+        } else {
+            string += a + '-';
+        }        
     }
+    return string;
 }
-let k = 'Q';
+let k = 'q';
 let n = 5;
-repeatString3(k, n);
+console.log(repeatString3(k, n));
 
 //Bài 4. Tính tổng các số chia hết cho 5 từ 0 -> 100
 const tinhTong = function () {
