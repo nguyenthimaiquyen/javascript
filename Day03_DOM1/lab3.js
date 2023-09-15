@@ -1,0 +1,50 @@
+let products = [
+    {
+        id: 1,
+        name: "Monogram",
+        price: 13000000,
+        brand: "Louis Vuitton",
+        thumbnail: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        rating: 3,
+    },
+    {
+        id: 2,
+        name: "Flower Tile Short Parka",
+        price: 12000000,
+        brand: "Louis Vuitton",
+        thumbnail: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        rating: 5,
+    },
+    {
+        id: 3,
+        name: "Tile Short Parka",
+        price: 11000000,
+        brand: "Louis Vuitton",
+        thumbnail: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        rating: 4,
+    },
+    {
+        id: 4,
+        name: "Mort Parka",
+        price: 10000000,
+        brand: "Louis Vuitton",
+        thumbnail: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        rating: 3,
+    },
+    {
+        id: 5,
+        name: "Short Parka",
+        price: 14000000,
+        brand: "Louis Vuitton",
+        thumbnail: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        rating: 5,
+    },
+    {
+        id: 6,
+        name: "Parka",
+        price: 15000000,
+        brand: "Louis Vuitton",
+        thumbnail: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+        rating: 4,
+    }
+]
