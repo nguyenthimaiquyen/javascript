@@ -17,7 +17,7 @@ const getBreedList = async () => {
         const arrayList = Object.keys(list.message);
         console.log(arrayList);
 
-        let html = '';
+        let html = '<option value="">--select--</option>';
         arrayList.forEach((value) => {
             html += `<option value="">${value}</option>`
         });
@@ -53,7 +53,6 @@ breedList.addEventListener('change', () => {
     btn.addEventListener('click', getImage)
 })
 
-//bug: do chọn lắng nghe sự kiện change nên nếu không thay đổi
-// giống dog thì sẽ ko render ra ảnh được
+
 
 
